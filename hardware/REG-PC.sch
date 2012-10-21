@@ -1,0 +1,329 @@
+EESchema Schematic File Version 2  date Fri 19 Oct 2012 23:31:17 BST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74HC4078
+LIBS:BS62LV256
+LIBS:dcpu-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 7 16
+Title ""
+Date "19 oct 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3000 4050
+Wire Wire Line
+	2550 4050 3000 4050
+Wire Wire Line
+	3450 3550 3350 3550
+Wire Wire Line
+	3450 3650 3350 3650
+Wire Wire Line
+	3450 3750 3350 3750
+Wire Wire Line
+	3450 3850 3350 3850
+Wire Wire Line
+	3450 3950 3350 3950
+Wire Wire Line
+	3450 4050 3350 4050
+Wire Wire Line
+	3450 4150 3350 4150
+Wire Wire Line
+	3450 4250 3350 4250
+Wire Wire Line
+	3450 3050 3350 3050
+Wire Wire Line
+	3450 2950 3350 2950
+Wire Wire Line
+	3450 2850 3350 2850
+Wire Wire Line
+	3450 2750 3350 2750
+Wire Wire Line
+	3450 2650 3350 2650
+Wire Wire Line
+	3450 2550 3350 2550
+Wire Wire Line
+	3450 2450 3350 2450
+Wire Wire Line
+	3450 2350 3350 2350
+Wire Wire Line
+	5750 4500 5700 4500
+Wire Wire Line
+	5700 4500 5700 4750
+Wire Wire Line
+	5700 4750 7650 4750
+Wire Wire Line
+	7650 4750 7650 3450
+Wire Wire Line
+	7650 3450 5700 3450
+Wire Wire Line
+	5700 3450 5700 3300
+Wire Wire Line
+	5700 3300 5750 3300
+Wire Wire Line
+	7150 4250 7250 4250
+Wire Wire Line
+	7150 4150 7250 4150
+Wire Wire Line
+	7150 4050 7250 4050
+Wire Wire Line
+	7150 3950 7250 3950
+Wire Wire Line
+	7150 3850 7250 3850
+Wire Wire Line
+	7150 3750 7250 3750
+Wire Wire Line
+	7150 3650 7250 3650
+Wire Wire Line
+	7150 3550 7250 3550
+Wire Wire Line
+	5750 4450 5750 4550
+Connection ~ 5500 4150
+Connection ~ 5300 3950
+Connection ~ 5100 3750
+Connection ~ 4900 3550
+Wire Wire Line
+	4850 3550 5750 3550
+Wire Wire Line
+	4850 3650 5750 3650
+Wire Wire Line
+	4850 3750 5750 3750
+Wire Wire Line
+	4850 3850 5750 3850
+Wire Wire Line
+	4850 3950 5750 3950
+Wire Wire Line
+	4850 4050 5750 4050
+Wire Wire Line
+	4850 4150 5750 4150
+Wire Wire Line
+	4850 4250 5750 4250
+Connection ~ 5000 3650
+Connection ~ 5200 3850
+Connection ~ 5400 4050
+Connection ~ 5600 4250
+Connection ~ 3450 4550
+Wire Wire Line
+	3450 4550 3450 4600
+Wire Wire Line
+	3450 3350 3450 3400
+Connection ~ 3450 3350
+Connection ~ 5600 3050
+Connection ~ 5400 2850
+Connection ~ 5200 2650
+Connection ~ 5000 2450
+Wire Wire Line
+	4850 3050 5750 3050
+Wire Wire Line
+	4850 2950 5750 2950
+Wire Wire Line
+	4850 2850 5750 2850
+Wire Wire Line
+	4850 2750 5750 2750
+Wire Wire Line
+	4850 2650 5750 2650
+Wire Wire Line
+	4850 2550 5750 2550
+Wire Wire Line
+	4850 2450 5750 2450
+Wire Wire Line
+	4850 2350 5750 2350
+Connection ~ 4900 2350
+Connection ~ 5100 2550
+Connection ~ 5300 2750
+Connection ~ 5500 2950
+Wire Wire Line
+	5750 3250 5750 3350
+Wire Wire Line
+	7150 2350 7250 2350
+Wire Wire Line
+	7150 2450 7250 2450
+Wire Wire Line
+	7150 2550 7250 2550
+Wire Wire Line
+	7150 2650 7250 2650
+Wire Wire Line
+	7150 2750 7250 2750
+Wire Wire Line
+	7150 2850 7250 2850
+Wire Wire Line
+	7150 2950 7250 2950
+Wire Wire Line
+	7150 3050 7250 3050
+Connection ~ 5750 3300
+Connection ~ 5750 4500
+Wire Wire Line
+	5750 4650 5700 4650
+Connection ~ 5700 4650
+Wire Wire Line
+	3450 3250 3000 3250
+Wire Wire Line
+	3000 3250 3000 4450
+Wire Wire Line
+	3000 4450 3450 4450
+$Comp
+L GND #PWR013
+U 1 1 5079BFD5
+P 3450 3400
+F 0 "#PWR013" H 3450 3400 30  0001 C CNN
+F 1 "GND" H 3450 3330 30  0001 C CNN
+	1    3450 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3350 3550 0    60   Output ~ 0
+A8
+Text HLabel 3350 3650 0    60   Output ~ 0
+A9
+Text HLabel 3350 3750 0    60   Output ~ 0
+A10
+Text HLabel 3350 3850 0    60   Output ~ 0
+A11
+Text HLabel 3350 3950 0    60   Output ~ 0
+A12
+Text HLabel 3350 4050 0    60   Output ~ 0
+A13
+Text HLabel 3350 4150 0    60   Output ~ 0
+A14
+Text HLabel 3350 4250 0    60   Output ~ 0
+A15
+Text HLabel 3350 2350 0    60   Output ~ 0
+A0
+Text HLabel 3350 2450 0    60   Output ~ 0
+A1
+Text HLabel 3350 2550 0    60   Output ~ 0
+A2
+Text HLabel 3350 2650 0    60   Output ~ 0
+A3
+Text HLabel 3350 2750 0    60   Output ~ 0
+A4
+Text HLabel 3350 2850 0    60   Output ~ 0
+A5
+Text HLabel 3350 2950 0    60   Output ~ 0
+A6
+Text HLabel 3350 3050 0    60   Output ~ 0
+A7
+Text HLabel 7250 4250 2    60   Output ~ 0
+A15
+Text HLabel 7250 4150 2    60   Output ~ 0
+A14
+Text HLabel 7250 4050 2    60   Output ~ 0
+A13
+Text HLabel 7250 3950 2    60   Output ~ 0
+A12
+Text HLabel 7250 3850 2    60   Output ~ 0
+A11
+Text HLabel 7250 3750 2    60   Output ~ 0
+A10
+Text HLabel 7250 3650 2    60   Output ~ 0
+A9
+Text HLabel 7250 3550 2    60   Output ~ 0
+A8
+Text HLabel 7250 3050 2    60   Output ~ 0
+A7
+Text HLabel 7250 2950 2    60   Output ~ 0
+A6
+Text HLabel 7250 2850 2    60   Output ~ 0
+A5
+Text HLabel 7250 2750 2    60   Output ~ 0
+A4
+Text HLabel 7250 2650 2    60   Output ~ 0
+A3
+Text HLabel 7250 2550 2    60   Output ~ 0
+A2
+Text HLabel 7250 2450 2    60   Output ~ 0
+A1
+Text HLabel 7250 2350 2    60   Output ~ 0
+A0
+$Comp
+L 74LS244 U24
+U 1 1 5079BF7F
+P 6450 4050
+F 0 "U24" H 6500 3850 60  0000 C CNN
+F 1 "74HC244" H 6550 3650 60  0000 C CNN
+	1    6450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS244 U23
+U 1 1 5079BF7E
+P 6450 2850
+F 0 "U23" H 6500 2650 60  0000 C CNN
+F 1 "74HC244" H 6550 2450 60  0000 C CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 4050 2750 0    200  ~ 0
+L
+Text HLabel 2550 4050 0    60   Input ~ 0
+LOAD
+$Comp
+L 74LS373 U21
+U 1 1 5079BF7C
+P 4150 2850
+F 0 "U21" H 4150 2850 60  0000 C CNN
+F 1 "74HC373" H 4200 2500 60  0000 C CNN
+	1    4150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS373 U22
+U 1 1 5079BF7B
+P 4150 4050
+F 0 "U22" H 4150 4050 60  0000 C CNN
+F 1 "74HC373" H 4200 3700 60  0000 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5079BF7A
+P 3450 4600
+F 0 "#PWR014" H 3450 4600 30  0001 C CNN
+F 1 "GND" H 3450 4530 30  0001 C CNN
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+Text HLabel 5750 4650 2    60   Input ~ 0
+SELECT
+Text Notes 4050 3950 0    200  ~ 0
+H\n
+Text Notes 2950 3500 2    60   ~ 0
+Loads from address bus
+Text Notes 7800 3400 0    60   ~ 0
+Selects on to address bus\n
+$EndSCHEMATC
