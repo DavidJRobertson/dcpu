@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Oct 2012 23:31:17 BST
+EESchema Schematic File Version 2  date Sun 31 Mar 2013 02:03:28 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 6 16
 Title "Register J"
-Date "19 oct 2012"
+Date "30 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -77,10 +77,6 @@ Wire Wire Line
 	5200 2200 5200 2300
 Wire Wire Line
 	2800 2200 2900 2200
-Connection ~ 4950 1900
-Connection ~ 4750 1700
-Connection ~ 4550 1500
-Connection ~ 4350 1300
 Wire Wire Line
 	4300 1300 5200 1300
 Wire Wire Line
@@ -97,10 +93,6 @@ Wire Wire Line
 	4300 1900 5200 1900
 Wire Wire Line
 	4300 2000 5200 2000
-Connection ~ 4450 1400
-Connection ~ 4650 1600
-Connection ~ 4850 1800
-Connection ~ 5050 2000
 Wire Wire Line
 	2800 1300 2900 1300
 Wire Wire Line
@@ -139,10 +131,6 @@ Wire Wire Line
 	2800 2600 2900 2600
 Wire Wire Line
 	2800 2500 2900 2500
-Connection ~ 5050 3200
-Connection ~ 4850 3000
-Connection ~ 4650 2800
-Connection ~ 4450 2600
 Wire Wire Line
 	4300 3200 5200 3200
 Wire Wire Line
@@ -159,10 +147,6 @@ Wire Wire Line
 	4300 2600 5200 2600
 Wire Wire Line
 	4300 2500 5200 2500
-Connection ~ 4350 2500
-Connection ~ 4550 2700
-Connection ~ 4750 2900
-Connection ~ 4950 3100
 Wire Wire Line
 	2800 3400 2900 3400
 Wire Wire Line
@@ -207,6 +191,8 @@ U 1 1 5079BB6B
 P 2900 3550
 F 0 "#PWR011" H 2900 3550 30  0001 C CNN
 F 1 "GND" H 2900 3480 30  0001 C CNN
+F 2 "" H 2900 3550 60  0001 C CNN
+F 3 "" H 2900 3550 60  0001 C CNN
 	1    2900 3550
 	1    0    0    -1  
 $EndComp
@@ -232,6 +218,8 @@ U 1 1 5079BB69
 P 3600 3000
 F 0 "U18" H 3600 3000 60  0000 C CNN
 F 1 "74HC373" H 3650 2650 60  0000 C CNN
+F 2 "" H 3600 3000 60  0001 C CNN
+F 3 "" H 3600 3000 60  0001 C CNN
 	1    3600 3000
 	1    0    0    -1  
 $EndComp
@@ -241,6 +229,8 @@ U 1 1 5079BB68
 P 3600 1800
 F 0 "U17" H 3600 1800 60  0000 C CNN
 F 1 "74HC373" H 3650 1450 60  0000 C CNN
+F 2 "" H 3600 1800 60  0001 C CNN
+F 3 "" H 3600 1800 60  0001 C CNN
 	1    3600 1800
 	1    0    0    -1  
 $EndComp
@@ -266,6 +256,8 @@ U 1 1 5079BB66
 P 2900 2350
 F 0 "#PWR012" H 2900 2350 30  0001 C CNN
 F 1 "GND" H 2900 2280 30  0001 C CNN
+F 2 "" H 2900 2350 60  0001 C CNN
+F 3 "" H 2900 2350 60  0001 C CNN
 	1    2900 2350
 	1    0    0    -1  
 $EndComp
@@ -279,6 +271,8 @@ U 1 1 5079BB65
 P 5900 1800
 F 0 "U19" H 5950 1600 60  0000 C CNN
 F 1 "74HC244" H 6000 1400 60  0000 C CNN
+F 2 "" H 5900 1800 60  0001 C CNN
+F 3 "" H 5900 1800 60  0001 C CNN
 	1    5900 1800
 	1    0    0    -1  
 $EndComp
@@ -288,6 +282,8 @@ U 1 1 5079BB64
 P 5900 3000
 F 0 "U20" H 5950 2800 60  0000 C CNN
 F 1 "74HC244" H 6000 2600 60  0000 C CNN
+F 2 "" H 5900 3000 60  0001 C CNN
+F 3 "" H 5900 3000 60  0001 C CNN
 	1    5900 3000
 	1    0    0    -1  
 $EndComp
@@ -323,4 +319,8 @@ Text HLabel 6700 3100 2    60   Output ~ 0
 A14
 Text HLabel 6700 3200 2    60   Output ~ 0
 A15
+Text Notes 3550 3200 0    60   ~ 0
+H\n
+Text Notes 3550 2000 0    60   ~ 0
+L\n
 $EndSCHEMATC

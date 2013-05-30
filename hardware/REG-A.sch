@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Oct 2012 23:31:17 BST
+EESchema Schematic File Version 2  date Sun 31 Mar 2013 02:03:28 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 11 16
 Title "Register A"
-Date "19 oct 2012"
+Date "30 mar 2013"
 Rev "A"
 Comp "David Robertson"
 Comment1 "http://davidr.me/"
@@ -147,6 +147,8 @@ U 1 1 50799356
 P 4700 4200
 F 0 "U45" H 4700 4200 60  0000 C CNN
 F 1 "74HC373" H 4750 3850 60  0000 C CNN
+F 2 "" H 4700 4200 60  0001 C CNN
+F 3 "" H 4700 4200 60  0001 C CNN
 	1    4700 4200
 	1    0    0    -1  
 $EndComp
@@ -156,6 +158,8 @@ U 1 1 50799355
 P 7000 4200
 F 0 "U46" H 7050 4000 60  0000 C CNN
 F 1 "74HC244" H 7100 3800 60  0000 C CNN
+F 2 "" H 7000 4200 60  0001 C CNN
+F 3 "" H 7000 4200 60  0001 C CNN
 	1    7000 4200
 	1    0    0    -1  
 $EndComp
@@ -197,6 +201,8 @@ U 1 1 50799353
 P 4000 4750
 F 0 "#PWR021" H 4000 4750 30  0001 C CNN
 F 1 "GND" H 4000 4680 30  0001 C CNN
+F 2 "" H 4000 4750 60  0001 C CNN
+F 3 "" H 4000 4750 60  0001 C CNN
 	1    4000 4750
 	1    0    0    -1  
 $EndComp

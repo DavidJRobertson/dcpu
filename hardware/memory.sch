@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Oct 2012 23:31:17 BST
+EESchema Schematic File Version 2  date Sun 31 Mar 2013 02:03:28 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 2 16
 Title ""
-Date "19 oct 2012"
+Date "30 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -120,6 +120,8 @@ U 1 1 5079E1A5
 P 3300 4000
 F 0 "#PWR06" H 3300 4000 30  0001 C CNN
 F 1 "GND" H 3300 3930 30  0001 C CNN
+F 2 "" H 3300 4000 60  0001 C CNN
+F 3 "" H 3300 4000 60  0001 C CNN
 	1    3300 4000
 	1    0    0    -1  
 $EndComp
@@ -145,6 +147,8 @@ U 1 1 5079E13F
 P 5000 2650
 F 0 "#PWR07" H 5000 2740 20  0001 C CNN
 F 1 "+5V" H 5000 2740 30  0000 C CNN
+F 2 "" H 5000 2650 60  0001 C CNN
+F 3 "" H 5000 2650 60  0001 C CNN
 	1    5000 2650
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 18 Oct 2012 23:09:20 BST
+EESchema Schematic File Version 2  date Wed 26 Dec 2012 01:17:17 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 16
 Title "DCPU"
-Date "18 oct 2012"
+Date "25 dec 2012"
 Rev "A"
 Comp "David Robertson"
 Comment1 "http://davidr.me/"
@@ -1067,14 +1067,14 @@ U 5079BB4C
 F0 "Register M" 60
 F1 "REG-M.sch" 60
 F2 "LOAD-2" I L 3850 5400 60 
-F3 "D7" I L 3850 4150 60 
-F4 "D6" I L 3850 4050 60 
-F5 "D5" I L 3850 3950 60 
-F6 "D4" I L 3850 3850 60 
-F7 "D3" I L 3850 3750 60 
-F8 "D2" I L 3850 3650 60 
-F9 "D1" I L 3850 3550 60 
-F10 "D0" I L 3850 3450 60 
+F3 "D7" B L 3850 4150 60 
+F4 "D6" B L 3850 4050 60 
+F5 "D5" B L 3850 3950 60 
+F6 "D4" B L 3850 3850 60 
+F7 "D3" B L 3850 3750 60 
+F8 "D2" B L 3850 3650 60 
+F9 "D1" B L 3850 3550 60 
+F10 "D0" B L 3850 3450 60 
 F11 "LOAD-1" I L 3850 5300 60 
 F12 "A0" O R 4850 3450 60 
 F13 "A1" O R 4850 3550 60 

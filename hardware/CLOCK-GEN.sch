@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Oct 2012 23:31:17 BST
+EESchema Schematic File Version 2  date Sun 31 Mar 2013 02:03:28 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 4 16
 Title ""
-Date "19 oct 2012"
+Date "30 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""

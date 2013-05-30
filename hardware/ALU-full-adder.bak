@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 18 Oct 2012 23:09:20 BST
+EESchema Schematic File Version 2  date Wed 26 Dec 2012 01:17:17 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:74HC4078
 LIBS:BS62LV256
 LIBS:dcpu-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 16 16
 Title "8-bit Full Adder"
-Date "18 oct 2012"
+Date "25 dec 2012"
 Rev "A"
 Comp "David Robertson"
 Comment1 "http://davidr.me/"
